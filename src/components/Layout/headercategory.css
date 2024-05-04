@@ -1,0 +1,101 @@
+.header-category span p {
+    margin-left: 5px;
+    color: #84878b;
+}
+
+.header-category span {
+    color: #84878b;
+
+}
+
+.header-category span.active,
+.header-category span.active p {
+    color: #4F45C2;
+}
+
+.header-category .active hr {
+    height: 5px;
+    border-radius: 4px 4px 0 0;
+    background-color: #4F45C2;
+    visibility: visible;
+}
+
+.header-category hr {
+    visibility: hidden;
+    height: 0;
+}
+
+.tabs {
+    cursor: pointer;
+}
+
+.add-task {
+    border: 1px #84878b solid;
+    background-color: transparent;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.popup-content {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    font-family: "Inter", sans-serif;
+    border: none;
+    width: 28%;
+    height: 25%;
+    position: fixed;
+    top: 30%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    margin-left: 10%;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-right: 2%;
+    display: block;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+body.night-mode .popup-content {
+    background-color: #1f2937;
+}
+body.night-mode .popup-content .popup-email-title{
+    color: #fff;
+}
+body.night-mode input[type="text"]{
+   background-color: #343f50;
+   color: #84878b;
+}
+body.night-mode .close-button svg path{
+    stroke: #79808a;
+}
+
+.header-modal.modal-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.mode-switch.active .moon {
+    fill: #fff;
+}
+
+body .header-category {
+    background-color: #ffffff;
+}
+
+body.night-mode .header-category {
+    background-color: #1f2937;
+}
+
+body.night-mode .todo-item-comp {
+    background-color: #1f2937;
+    color: rgba(255, 255, 255, .8);
+}
+
+.todo-item-comp {
+    background-color: #ffffff;
+}
